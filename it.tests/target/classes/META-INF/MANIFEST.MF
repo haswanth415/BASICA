@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1524122060912
+Build-Jdk: 1.8.0_131
+Built-By: Admin
+Bundle-Description: Bundles for Integration Tests for basica
+Bundle-ManifestVersion: 2
+Bundle-Name: basica - Integration Tests Bundles
+Bundle-SymbolicName: com.basica.it.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.basica.basica.it.tests;version="0.0.1";uses:="org.ap
+ ache.sling.junit.annotations,org.junit,org.junit.runner"
+Import-Package: com.basica.basica.core;version="[1.0,2)",org.apache.slin
+ g.junit.annotations;version="[1.0,2)",org.apache.sling.settings;version
+ ="[1.3,2)",org.junit,org.junit.runner
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.3.0.201405100607

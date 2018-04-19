@@ -1,0 +1,13 @@
+com\basica\basica\core\impl\listeners\SimpleResourceListener.class
+com\basica\basica\core\use\GlobalHeaderNavigation.class
+com\basica\basica\core\impl\servlets\JsonFile.class
+com\basica\basica\core\Haswanth.class
+com\basica\basica\core\impl\filters\LoggingFilter.class
+com\basica\basica\core\package-info.class
+com\basica\basica\core\impl\servlets\SimpleServlet.class
+com\basica\basica\core\HelloService.class
+com\basica\basica\core\impl\servlets\Datasource.class
+com\basica\basica\core\use\ExcelNew.class
+com\basica\basica\core\impl\schedulers\SimpleScheduledTask.class
+com\basica\basica\core\impl\HelloServiceImpl.class
+com\basica\basica\core\use\GlobalFooterNavigation.class

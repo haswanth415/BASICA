@@ -1,0 +1,19 @@
+	<!-- Our Portfolio -->	
+              <sly data-sly-use.childUse="portfolio.js"/>
+        <div class="section section-white">
+	        <div class="container">
+	        	<div class="row">
+				<div class="section-title">
+				<h1>Our Recent Works</h1>
+				</div>
+                <div data-sly-test="${childUse.childs}" data-sly-list="${childUse.childs}" class="row">
+			<ul class="grid cs-style-3">
+	        	<div class="col-md-4 col-sm-6">
+                        <sly data-sly-resource="${@path=item,resourceType='basica/components/dependent/portfolio-child'}"/>
+
+				</div>
+			</ul>
+	        	</div>
+	        </div>
+	    </div></div>
+		<!-- Our Portfolio -->

@@ -1,0 +1,26 @@
+
+<!--/*
+//Using predefined objects
+
+<div data-sly-use.predefined="predefined.js">
+<p>${predefined.pageName}</p>
+<p>${predefined.title}</p> 
+<p>${predefined.resourceName}</p> 
+<p>${predefined.resourceTitle}</p> 
+</div>
+
+
+
+//Passing parameters to the JavaScript Use-API
+
+<div data-sly-use.params="${'params.js' @ value1='feike', value2='visser', seperator=' '}"> 
+${params.newValue} </div>
+
+*/-->
+
+
+    <div 
+<sly data-sly-test=(properties.text11 && properties.text2) />
+<sly data-sly-use.params="${'sightly.js' @ value1=properties.text1, value2=properties.text2, seperator='******'}" /> 
+    ${params.newValue}
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>basica - UI content</comment>
+<entry key="createdBy">Admin</entry>
+<entry key="name">basica.ui.content</entry>
+<entry key="created">2018-03-05T12:35:20.660+0530</entry>
+<entry key="groupId">com.basica</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">basica Content Package</entry>
+<entry key="description">UI content package for basica</entry>
+<entry key="artifactId">basica.ui.content</entry>
+<entry key="path">/etc/packages/basica Content Package/basica.ui.content.zip</entry>
+</properties>

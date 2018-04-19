@@ -1,0 +1,22 @@
+
+<!-- Our Clients -->
+
+    <sly data-sly-use.childUse = "success.js"/>
+	    <div class="section">
+	    	<div class="container">
+			
+				<div class="section-title">
+				<h1>Our Success Stories</h1>
+				</div>
+
+                <div data-sly-test="${childUse.childs}" data-sly-list="${childUse.childs}" class="clients-logo-wrapper text-center row">
+
+				<div class="clients-logo-wrapper text-center row">
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#">
+           <sly data-sly-resource="${@path=item,resourceType='basica/components/dependent/success-child'}"/>
+ </a></div>
+
+				</div>
+			</div>
+	    </div></div>
+	    <!-- End Our Clients -->

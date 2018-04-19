@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <bootstrap.min.js/>
+    <jquery-1.9.1.min.js/>
+    <jquery.easing.min.js/>
+    <modernizr-2.6.2-respond-1.1.0.min.js/>
+    <scrolling-nav.js/>
+</jcr:root>

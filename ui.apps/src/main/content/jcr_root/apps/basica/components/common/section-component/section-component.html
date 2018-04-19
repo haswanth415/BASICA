@@ -1,0 +1,13 @@
+<sly data-sly-use.addSection="addSection.js"/>
+<sly data-sly-test="${properties.sectionsCount}">
+
+    <sly data-sly-test="${addSection.array}" data-sly-list="${addSection.array}">
+
+  <div> 
+    <sly data-sly-resource="${@path=item, resourceType='basica/components/global/section'}"/>
+              ${item}
+
+    </div>
+
+    </sly>
+        </sly>

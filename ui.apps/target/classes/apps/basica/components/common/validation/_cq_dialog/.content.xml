@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="touch ui-validation"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem6_2_docs_component_en#Image - Sightly">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items jcr:primaryType="nt:unstructured">
+            <myMultifield
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/multifield"
+                fieldLabel="My Multifield"
+                max="{Long}5"
+                min="{Long}2">
+                <field
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                    name="./myTextfield"/>
+                <multifield.js/>
+            </myMultifield>
+            <myAllowAnythingPathbrowser
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                allowNonExistingPath="{Boolean}true"
+                allowNonRootPath="{Boolean}true"
+                fieldLabel="My pathbrowser"
+                name="./myAllowAnythingPathbrowser"
+                required="{Boolean}true"
+                rootPath="/content/basica">
+                <pathbrowser.js/>
+            </myAllowAnythingPathbrowser>
+        </items>
+    </content>
+</jcr:root>
